@@ -106,6 +106,7 @@ def which_to_fill():
     if state_int[0] + state_int[4] + state_int[8] == 2:urgent_positions.append([1,5,9][[state_int[0] , state_int[4] , state_int[8]].index(0)])
     if state_int[2] + state_int[4] + state_int[6] == 2:urgent_positions.append([3,5,7][[state_int[2] , state_int[4] , state_int[6]].index(0)])
     urgent_positions = list(set(urgent_positions))
+    print(urgent_positions)
     return urgent_positions
     
 ##########################
@@ -149,5 +150,5 @@ To run part1 uncomment run_part1()
 To run part2 uncomment run_part2()
 but not both of them in same time.
 '''
-#run_part1()
+#ُrun_part1()
 run_part2()
